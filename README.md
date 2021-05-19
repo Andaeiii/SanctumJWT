@@ -1,6 +1,6 @@
 
 ## Installation Settings.
-and configure your database
+configure your database/application 
 - update env file. 
 
 > Steps to follow 
