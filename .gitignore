@@ -3,7 +3,7 @@
 /public/storage
 /storage/*.key
 
-/app/models/*
+/app/models/*.php
 
 /vendor
 .env
