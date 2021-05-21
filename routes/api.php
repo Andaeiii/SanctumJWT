@@ -32,6 +32,14 @@ Route::middleware('auth:sanctum')->group(function(){
         echo 'working...';
     });
 
+
+    //implementing the <api-routes class="
+    Route::post('/user/add', [UserController::class, 'addUser']);
+    Route::get('user/{id}', [UserController::class, 'viewUser']);
+    Route::post('user/{id}/update', [UserController::class, 'updateUser']);
+    Route::post('user/{id}/delete', [UserController::class, 'deleteUser']);
+
+
     Route::get('logout', [AuthController::class, 'logOut']);
 
 });
