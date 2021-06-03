@@ -1,6 +1,6 @@
 ## Using Laravel Sanctum for your API's.
 
-an alternative to Api endpoint creation, an alternative to laravel Passport... follow the guidelines and get your app up and running..
+an alternative to Api endpoint creation, an alternative to laravel Passport... follow the guidelines and get your app up and running.. but i prefer this
 
 ## Installation Settings.
 
